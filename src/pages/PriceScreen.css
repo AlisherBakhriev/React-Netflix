@@ -1,0 +1,17 @@
+.priceScreen_main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.5;
+}
+.priceScreen_main:hover {
+    opacity: 1;
+}
+.priceScreen_main > button {
+    padding: 10px 30px;
+    background-color: #e50914;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+
+}
