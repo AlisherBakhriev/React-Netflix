@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./LoginScreen.css";
+import { MainScreenOne } from "./MainScreenOne";
 import SignUpScreen from "./SignUpScreen";
 function LoginScreen() {
   const [signIn, setSignIn] = useState(false);
@@ -42,6 +43,9 @@ function LoginScreen() {
           </div>
         </div>
       </div>
+    <>
+      <MainScreenOne />
+    </>
     </div>
   );
 }
