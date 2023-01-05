@@ -1,4 +1,5 @@
 import React from "react";
+import Accordions from "./Accordion";
 import "./MainScreen.css";
 import MainScreenTree from "./MainScreenTree";
 import MainScreenTwo from "./MainScreenTwo";
@@ -56,6 +57,7 @@ export const MainScreenOne = () => {
       </div>
     </div>
     <MainScreenTree/>
+    <Accordions/>
     </>
   );
 };

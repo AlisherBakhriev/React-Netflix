@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FooterScreen from "./FooterScreen";
 import "./LoginScreen.css";
 import { MainScreenOne } from "./MainScreenOne";
 import SignUpScreen from "./SignUpScreen";
@@ -45,6 +46,7 @@ function LoginScreen() {
       </div>
     <>
       <MainScreenOne />
+      <FooterScreen/>
     </>
     </div>
   );

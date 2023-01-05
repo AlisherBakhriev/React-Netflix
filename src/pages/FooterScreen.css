@@ -1,0 +1,38 @@
+.footerScreen_main {
+  color: #737373;
+  border-top: 8px solid #222;
+  background: #000;
+  font-size: 1em;
+  min-width: 190px;
+  position: relative;
+  width: 100%;
+  padding-top: 70px;
+}
+.footerScreen_main > p {
+    margin: 0 17% 2%;
+    padding: 0;
+}
+.footerScreen_content {
+    margin: 0 auto;
+    width: 90%;
+  padding-bottom: 70px;
+
+}
+.footerScreen_content > ul {
+  box-sizing: border-box;
+  font-size: 13px;
+  max-width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  
+}
+.footerScreen_content > ul > li {
+  width: 25%;
+  margin-top: 10px;
+  list-style: none;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}

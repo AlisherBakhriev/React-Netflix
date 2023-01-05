@@ -1,0 +1,43 @@
+.accordion {
+  background: #000;
+  padding-top: 50px;
+  color: #fff;
+  text-align: center;
+}
+.accordion > .accordion_main {
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+.accordion > .accordion_main > h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  max-width: none;
+  padding-bottom: 25px;
+  margin-top: 50px;
+}
+.accordion > .accordion_main > .acc {
+  background-color: #303030;
+  margin-top: 10px;
+  text-align: left;
+}
+.css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 26px !important;
+  line-height: 1.5;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  letter-spacing: 0.00938em;
+  color: white;
+}
+.css-i4bv87-MuiSvgIcon-root {
+  color: white;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+  box-sizing: border-box;
+  height: 75px;
+  border: none !important;
+}
+
