@@ -21,16 +21,16 @@
   background-color: #303030;
   margin-top: 10px;
   text-align: left;
+  color: white;
 }
 .css-ahj2mt-MuiTypography-root {
+  font-size: 26px !important ;
   margin: 0;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
-  font-size: 26px !important;
   line-height: 1.5;
   padding: 0.8em 2.2em 0.8em 1.2em;
   letter-spacing: 0.00938em;
-  color: red;
 }
 .css-i4bv87-MuiSvgIcon-root {
   color: white;
@@ -40,4 +40,3 @@
   height: 75px;
   border: none !important;
 }
-
